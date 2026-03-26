@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 
 app = FastAPI(
-  title = "Notes App",
+  title = "Notes API",
   version = "1.0.0",
-  description = "lets try building a notes app"
+  description = "A simple API for creating, reading, updating, and deleting notes."
 )
 
 @app.get("/")
